@@ -1,5 +1,17 @@
-body {
-  background-color: white;
+/*CLEARFLOATS OF the CHILDREN*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+/*CLEARFLOATS of the CHILDREN*/
+
+
+.welcome-container {
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
@@ -100,3 +112,4 @@ footer {
   color: red;
 
 }
+

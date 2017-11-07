@@ -15,6 +15,33 @@ body{
 
 }
 
+.navbar {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar li {
+  float: left;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.navbar a:hover {
+  background-color: black;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;

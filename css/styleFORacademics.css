@@ -1,8 +1,10 @@
-body {
-  background-color: white;
+
+
+.academics-container {
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
+  background-color: white;
 }
 
 .navbar {
@@ -36,7 +38,36 @@ h1 {
   font-size: 4em;
 }
 
-h2 {
-  font-size: 2.7em;
-  padding-top: 20px;
+.academicsLINKS {
+  background-color: lightgray;
 }
+
+.academicsLINKS ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.academicsLINKS li {
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.academicsLINKS a {
+  text-decoration: none;
+  color: red;
+  display: block;
+  font-size: 140%;
+  text-align: center;
+}
+
+.academicsLINKS a:hover {
+  color: blue;
+}
+
+footer {
+  color: red;
+  padding: 10px;
+}
+
