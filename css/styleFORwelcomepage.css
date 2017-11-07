@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background-color: #4d4d4d;
+  background-color: lightgray;
   text-align: center;
 }
 
@@ -32,34 +32,71 @@ body {
   background-color: black;
 }
 
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.7em;
+  padding-top: 20px;
+}
+
+.tab-title {
+  font-size: 2em;
+  padding-top: 5px;
+}
+
 .academicstab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
 }
 
 .slifetab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
 }
 
 .financestab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
 }
 
 .athleticstab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
 }
 
 .librarytab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
 }
 
 .researchtab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
 }
 
 .mystufftab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
 }
 
 .trainingandsupporttab {
   background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: red;
+
 }
