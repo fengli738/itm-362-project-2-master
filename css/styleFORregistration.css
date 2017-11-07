@@ -1,0 +1,100 @@
+/*CLEARFLOATS OF the CHILDREN*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+/*CLEARFLOATS of the CHILDREN*/
+
+body{
+  background: white;
+
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Roboto Condensed';
+}
+
+.title{
+  color: red;
+ text-align: center;
+}
+
+
+#JoinNow{
+  color: red;
+}
+
+
+.Info{
+  background: #8c8c8c;
+  text-align: center;
+  padding-top: 10px;
+}
+
+input[type=text], [type=submit]{
+  width: 13%;
+  padding: 4px 6px;
+  margin: 5px 0;
+  text-align: center;
+  box-sizing: border-box;
+  }
+
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em; /*(33.178px/16px=2.074em) Minor 3rd */
+}
+
+
+#copyright{
+  text-align: center;
+  font-size: 1.25em;
+}
+
+
+
+@media screen and (min-width: 400px){
+
+
+.title {
+  font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+}
+
+#JoinNow{
+  font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */}
+
+
+label {
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+}
+
+}
+
+@media screen and (min-width: 960px){
+
+
+.title {
+  font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+}
+
+#JoinNow{
+  font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */
+}
+
+label {
+ font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+}
+
+}
+
+
+
