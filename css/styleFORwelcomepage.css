@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #4d4d4d;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar li {
+  float: left;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.navbar a:hover {
+  background-color: black;
+}
+
+.academicstab {
+  background-color: lightgray;
+}
+
+.slifetab {
+  background-color: lightgray;
+}
+
+.financestab {
+  background-color: lightgray;
+}
+
+.athleticstab {
+  background-color: lightgray;
+}
+
+.librarytab {
+  background-color: lightgray;
+}
+
+.researchtab {
+  background-color: lightgray;
+}
+
+.mystufftab {
+  background-color: lightgray;
+}
+
+.trainingandsupporttab {
+  background-color: lightgray;
+}
