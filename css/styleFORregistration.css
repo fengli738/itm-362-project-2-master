@@ -10,27 +10,24 @@
 }
 /*CLEARFLOATS of the CHILDREN*/
 
-body{
-  background: white;
 
-}
 
-.navbar {
+.navbar-registration {
   background-color: lightgray;
   text-align: center;
 }
 
-.navbar ul {
+.navbar-registration ul {
   list-style-type: none;
   display: inline-block;
 }
 
-.navbar li {
+.navbar-registration li {
   float: left;
   margin: 0;
 }
 
-.navbar a {
+.navbar-registration a {
   text-decoration: none;
   color: red;
   padding: 10px 20px;
@@ -38,28 +35,22 @@ body{
   font-size: 140%;
 }
 
-.navbar a:hover {
+.navbar-registration a:hover {
   background-color: black;
 }
 
-.container {
+.container-registration {
   max-width: 960px;
   margin: 0 auto;
   font-family: 'Roboto Condensed';
+  text-align: center;
 }
 
-.title{
-  color: red;
+.title-registration{
  text-align: center;
 }
 
-
-#JoinNow{
-  color: red;
-}
-
-
-.Info{
+.info-registration{
   background: #8c8c8c;
   text-align: center;
   padding-top: 10px;
@@ -74,7 +65,7 @@ input[type=text], [type=submit]{
   }
 
 
-.button {
+.button-registration {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -82,22 +73,18 @@ input[type=text], [type=submit]{
 }
 
 
-#copyright{
-  text-align: center;
-  font-size: 1.25em;
+.footer-registration {
+  color: red;
+  padding: 10px;
 }
-
 
 
 @media screen and (min-width: 400px){
 
 
-.title {
+.title-registration {
   font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
-
-#JoinNow{
-  font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */}
 
 
 label {
@@ -109,13 +96,11 @@ label {
 @media screen and (min-width: 960px){
 
 
-.title {
+.title-registration {
   font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
 
-#JoinNow{
-  font-size: 2.488em; /*(39.813px/16px=2.488em) Minor 3rd */
-}
+
 
 label {
  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
