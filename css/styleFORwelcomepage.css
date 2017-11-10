@@ -17,22 +17,22 @@
   text-align: center;
 }
 
-.navbar {
+.navbar-welcomepage {
   background-color: lightgray;
   text-align: center;
 }
 
-.navbar ul {
+.navbar-welcomepage ul {
   list-style-type: none;
   display: inline-block;
 }
 
-.navbar li {
+.navbar-welcomepage li {
   float: left;
   margin: 0;
 }
 
-.navbar a {
+.navbar-welcomepage a {
   text-decoration: none;
   color: red;
   padding: 10px 20px;
@@ -40,7 +40,7 @@
   font-size: 140%;
 }
 
-.navbar a:hover {
+.navbar-welcomepage a:hover {
   background-color: black;
 }
 
