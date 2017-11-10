@@ -297,6 +297,14 @@ label {
 
 /*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*/
 
+/*SUCCESS PAGE CSS*/
+
+.success-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 
 
