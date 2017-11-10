@@ -7,22 +7,22 @@
   background-color: white;
 }
 
-.navbar {
+.navbar-academics {
   background-color: lightgray;
   text-align: center;
 }
 
-.navbar ul {
+.navbar-academics ul {
   list-style-type: none;
   display: inline-block;
 }
 
-.navbar li {
+.navbar-academics li {
   float: left;
   margin: 0;
 }
 
-.navbar a {
+.navbar-academics a {
   text-decoration: none;
   color: red;
   padding: 10px 20px;
@@ -30,11 +30,11 @@
   font-size: 140%;
 }
 
-.navbar a:hover {
+.navbar-academics a:hover {
   background-color: black;
 }
 
-h1 {
+.title-academics {
   font-size: 4em;
 }
 
@@ -66,7 +66,7 @@ h1 {
   color: blue;
 }
 
-footer {
+.academics-footer {
   color: red;
   padding: 10px;
 }
