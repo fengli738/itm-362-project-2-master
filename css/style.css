@@ -1,0 +1,314 @@
+/*CLEARFLOATS OF the CHILDREN*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+/*CLEARFLOATS of the CHILDREN*/
+
+.iit-banner{
+  width: 100%;
+  height: 30%;
+}
+
+
+/*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
+.welcome-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar-welcomepage {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.navbar-welcomepage ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar-welcomepage li {
+  float: left;
+  margin: 0;
+}
+
+.navbar-welcomepage a {
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.navbar-welcomepage a:hover {
+  background-color: black;
+}
+
+.title-h1 {
+  font-size: 4em;
+}
+
+.title-h2 {
+  font-size: 2.7em;
+  padding-top: 20px;
+}
+
+.tab-title {
+  font-size: 2em;
+  padding-top: 5px;
+}
+
+.academicstab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.slifetab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.financestab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.athleticstab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.librarytab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.researchtab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.mystufftab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.trainingandsupporttab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 160%;
+}
+
+.welcomepage-footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: red;
+
+}
+
+/*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
+
+
+/*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*/
+
+.academics-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.navbar-academics {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.navbar-academics ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar-academics li {
+  float: left;
+  margin: 0;
+}
+
+.navbar-academics a {
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.navbar-academics a:hover {
+  background-color: black;
+}
+
+.title-academics {
+  font-size: 4em;
+}
+
+.academicsLINKS {
+  background-color: lightgray;
+}
+
+.academicsLINKS ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.academicsLINKS li {
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.academicsLINKS a {
+  text-decoration: none;
+  color: red;
+  display: block;
+  font-size: 140%;
+  text-align: center;
+}
+
+.academicsLINKS a:hover {
+  color: blue;
+}
+
+.academics-footer {
+  color: red;
+  padding: 10px;
+}
+
+/*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*/
+
+/*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*/
+
+.navbar-registration {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.navbar-registration ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar-registration li {
+  float: left;
+  margin: 0;
+}
+
+.navbar-registration a {
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.navbar-registration a:hover {
+  background-color: black;
+}
+
+.container-registration {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Roboto Condensed';
+  text-align: center;
+}
+
+.title-registration{
+ text-align: center;
+}
+
+.info-registration{
+  background: #8c8c8c;
+  text-align: center;
+  padding-top: 10px;
+}
+
+input[type=text], [type=submit]{
+  width: 13%;
+  padding: 4px 6px;
+  margin: 5px 0;
+  text-align: center;
+  box-sizing: border-box;
+  }
+
+
+.button-registration {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em; /*(33.178px/16px=2.074em) Minor 3rd */
+}
+
+
+.footer-registration {
+  color: red;
+  padding: 10px;
+}
+
+
+@media screen and (min-width: 400px){
+
+
+.title-registration {
+  font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+}
+
+
+label {
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+}
+
+}
+
+@media screen and (min-width: 960px){
+
+
+.title-registration {
+  font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+}
+
+
+
+label {
+ font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+}
+
+}
+
+/*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*/
+
+/*SUCCESS PAGE CSS*/
+
+.success-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
