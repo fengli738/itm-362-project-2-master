@@ -35,6 +35,11 @@ margin: 0;
   height: 30%;
 }
 
+body {
+  background-image: url("project-2-images/back2.jpg");
+  background-size:cover;
+}
+
 
 div {
     border-radius: 5px;
@@ -42,14 +47,15 @@ div {
   }
 
 form{
- text-align: center;
- background-color: white;
-font-size: 20px;
-font-family: Sofia;
-font-weight: bold;
-padding: 0px;
-border-style: solid;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  font-family: Sofia;
+  font-weight: bold;
+  padding: 0px;
+  border-style: solid;
 }
+
 #Login{
   background-color: #ccc;
   margin: 0;
