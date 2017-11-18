@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/cssreset.css">
 <link rel="stylesheet" media="screen" href="css/login.css">
+<script src="java/java.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <title>Illinois Institute of Technology Login</title>
 </head>
@@ -19,9 +20,9 @@
       <input type="password" required autocomplete="name">
       <p></p>
       <input type="button" class="btn" name="login_btn" value="login" onclick="location.href='welcomepage.html';" tabindex="3">
-      <input type="button" class="btn" name="cancel_btn" value="clear" onclick="doCancel();" tabindex="4"> 
       <p></p>
-      <a href="javascript:toggleLayer('Hint1');">Trouble logging in?</a>
+      <button onclick="helpfunction() ">Trouble logging in?</button>
+      <p id="help"></p>
     </fieldset>
   </form> 
 </div>
