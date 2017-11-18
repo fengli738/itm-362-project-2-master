@@ -27,7 +27,7 @@ a:active {
 /* ===========> LAYOUT SPECIFIC STYLES <=========== */
 
 .container.index{
-margin: 0;
+  margin: 0;
 }
 
 .iit-banner{
@@ -35,20 +35,19 @@ margin: 0;
   height: 30%;
 }
 
-
 div {
     border-radius: 5px;
     padding: 20px;
-  }
+}
 
-form{
- text-align: center;
- background-color: white;
-font-size: 20px;
-font-family: Sofia;
-font-weight: bold;
-padding: 0px;
-border-style: solid;
+form {
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  font-family: Sofia;
+  font-weight: bold;
+  padding: 0px;
+  border-style: solid;
 }
 #Login{
   background-color: #ccc;
