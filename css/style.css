@@ -71,7 +71,6 @@
 .tab-title {
   font-size: 2em;
   padding-top: 5px;
-
 }
 
 .academicstab {
@@ -88,7 +87,6 @@
   font-size: 160%;
   border-style: solid;
   margin-bottom: 50px;
-  
 }
 
 .financestab {
@@ -137,7 +135,6 @@
   font-size: 160%;
   border-style: solid;
   margin-bottom: 50px;
-
 }
 
 .welcomepage-footer {
@@ -145,7 +142,6 @@
   margin-bottom: 25px;
   color: red;
   font-size: 1.5em;
-  font-style: bold;
 }
 
 /*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
@@ -225,7 +221,6 @@
   color: red;
   padding: 20px;
   font-size: 1.5em;
-  font-style: bold;
 }
 
 /*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*/
@@ -288,7 +283,6 @@ input[type=text], [type=submit]{
   box-sizing: border-box;
   }
 
-
 .button-registration {
   display: block;
   margin-left: auto;
@@ -319,22 +313,17 @@ input[type=text], [type=submit]{
   transform: translateY(4px);
 }
 
-
 .footer-registration {
   color: red;
   padding: 20px;
   font-size: 1.5em;
-  font-style: bold;
 }
 
-
 @media screen and (min-width: 400px){
-
 
 .title-registration {
   font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
-
 
 label {
   font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
@@ -348,8 +337,6 @@ label {
 .title-registration {
   font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
-
-
 
 label {
  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
@@ -378,14 +365,26 @@ label {
 }
 
 @-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:gray; left:200px; top:0px;}
-    50%  {background-color:black; left:200px; top:200px;}
-    75%  {background-color:gray; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0% {
+          background-color:red; left:0px; top:0px;
+        }
+    
+    25% {
+          background-color:gray; left:200px; top:0px;
+        }
+    
+    50% {
+          background-color:black; left:200px; top:200px;
+        }
+    
+    75% {
+          background-color:gray; left:0px; top:200px;
+        }
+    
+    100% {
+          background-color:red; left:0px; top:0px;
+        }
 }
-
-
 /*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*/
 
 
