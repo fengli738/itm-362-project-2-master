@@ -18,3 +18,11 @@ function helpfunction() {
     }
     document.getElementById("help").innerHTML = txt;
 }
+function btnclick(){
+    if(document.getElementById("pin").value.length == 0){
+        alert("pin number is empty")
+    }
+    else{
+        window.location.href='success.html'
+    }
+}
