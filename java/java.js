@@ -18,6 +18,8 @@ function helpfunction() {
     }
     document.getElementById("help").innerHTML = txt;
 }
+function pgclick(){
+    window.location.href='index.html'
 function btnclick(){
     if(document.getElementById("pin").value.length == 0){
         alert("pin number is empty")
