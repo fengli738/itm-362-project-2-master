@@ -5,6 +5,7 @@
  <title>Registration</title>
  <link rel="stylesheet" type="text/css" href="css/cssreset.css">
  <link rel="stylesheet" type="text/css" href="css/style.css">
+ <script type="text/javascript" src='java/java.js'></script>
 </head>
 <body>
   <img class="iit-banner" src="project-2-images/iitbanner.gif" alt="IIT Banner">
@@ -28,7 +29,7 @@
   <h1 class="title-registration">Register For Classes</h1>
   <div class="info-registration">
     <fieldset>
-      <label> PIN: </label><input type="text">
+      <label> PIN: </label><input type="text" id="pin">
       <p></p>
       <label> Class 1: </label>
         <form>
@@ -164,7 +165,7 @@
       <p></p>
       <label> Add CRN: </label> <input type="text"> <input type="text"> <input type="text"> <input type="text"> <input type="text"> <input type="text">
       <p class="button-registration">
-      <button class="regButton" onclick="window.location.href='success.html'">Submit Classes</button>
+      <button class="regButton" onclick="btnclick()">Submit Classes</button>
       </p>
     </fieldset>
   </div>
