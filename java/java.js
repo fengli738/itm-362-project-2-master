@@ -25,6 +25,6 @@ function btnclick(){
         alert("pin number is empty")
     }
     else{
-        window.location.href='success.html'
+        window.location.href='https://web.iit.edu/'
     }
 }
