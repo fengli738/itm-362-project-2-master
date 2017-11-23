@@ -18,3 +18,6 @@ function helpfunction() {
     }
     document.getElementById("help").innerHTML = txt;
 }
+function pgclick(){
+    window.location.href='index.html'
+}
